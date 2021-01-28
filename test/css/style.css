@@ -1,0 +1,163 @@
+.header {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-logo {
+    display: inline-block;
+    width: 15%;
+}
+.header-menu {
+    align-items: center;
+    padding-left: 20px;
+    display: inline-block;
+}
+.header-menu_item {
+    margin-right: 20px ;
+}
+.header-buttons{
+    display: inline-block;
+}
+.header-button_1{
+
+}
+/* .try {
+   padding: 5px;
+} */
+
+.main {
+    background: url(../img/background-new.jpg) center no-repeat;
+    background-size: cover;
+    padding-top: 300px;
+    padding-bottom: 250px;
+}
+.main-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.main-text {
+    width: 27%;
+    align-self: flex-end;
+    background-color: #fff;
+    opacity: 0.7;
+    padding: 10px;
+
+}
+.main-form {
+    width: 170px;
+    border: green;
+
+}
+.main-text__title {
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.form-input {
+    padding-top: 10px;
+    padding-left: 7px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.service-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.service-item {
+    width: 30%;
+}
+.service-item__img {
+    width: 80%;
+    text-align: center;
+}
+img {
+    width: 100%;
+}
+.footer {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-left: 10px;
+
+}
+.footer-btm {
+    background-color: #a09595;
+}
+
+.button {
+    padding: 8px 25px;
+    border-radius: 10px;
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    text-transform: uppercase;
+}
+
+.button-active {
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+}
+
+.header-menu ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    float: left;
+}
+
+.header-menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    margin-right: 20px;
+}
+.main-form__title{
+    font-size: 35px;
+    font-weight: normal;
+    color: darkblue;
+    text-align: center;
+}
+.questions-button{
+    padding: 8px 25px;
+    border-radius: 10px;
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    text-transform: uppercase;
+
+
+
+}
+.main-form__email{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.main-form__number{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.questions{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.main-text__description{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+
+}
+.service-item__title{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
